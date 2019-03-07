@@ -1,0 +1,21 @@
+/* You can add global styles to this file, and also import other style files */
+table, th, td {
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 30px;
+  }
+
+  lable, input, form {
+    padding: 10px;
+    font-size: 30px;
+  }
+  input{
+      margin-top: 10px;
+  }
+  a{
+      font-size: 30px;
+      color:blue;
+  }
+  a:hover{
+      cursor: pointer;
+  }

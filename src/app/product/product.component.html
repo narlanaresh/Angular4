@@ -1,0 +1,15 @@
+
+<a routerLink="/"><Back</a>
+<h1>
+    Add new Product
+    </h1>
+<div>
+<form id="formNewProduct" name="formNewProduct" #productData = "ngForm" (ngSubmit) = "addNewProduct(productData.value)" >
+    <input type = "text" name = "title" id="title" placeholder = "title" ngModel>
+    <br/>
+    <input type = "text" name = "author" id="author" placeholder = "author" ngModel>
+    <br/>
+    <input type = "submit" value = "submit">
+ </form>
+</div>
+ <h3 *ngIf="isAdded">{{this.confirmString}}</h3>
